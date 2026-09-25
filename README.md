@@ -7,7 +7,7 @@
 [![Spec: NLPM 100](https://img.shields.io/badge/Spec-NLPM_Compliant-emerald.svg)]()
 [![Typography: Pangu](https://img.shields.io/badge/Typography-Pangu_Compliant-indigo.svg)]()
 
-Mac AI Efficiency Kit 是一套专为 macOS 打造的原生 AI 技能与排版硬规范，全面适配 Antigravity、Codex 与 Claude Code。本套件彻底剔除 AI 的谄媚废话与排版乱码，为你的本地 AI 注入五人对抗性决策委员会、逻辑假设审计、剪贴板无损接力以及严谨的 GFM/Mermaid 交付契约。
+Mac AI Efficiency Kit 是一套专为 macOS 打造的原生 AI 技能与排版硬规范，全面适配 Antigravity、Codex 与 Claude Code。本套件彻底剔除 AI 交互中的谄媚废话与排版乱码，为你的 AI 助手注入五人对抗性决策委员会、逻辑假设审计、剪贴板无损接力以及严谨的 GFM/Mermaid 交付契约。
 
 ---
 
