@@ -1,0 +1,4 @@
+interface:
+  display_name: "Decision Council"
+  short_description: "Audit decisions and important work independently"
+  default_prompt: "Use $decision-council to independently stress-test this decision, AI advice, or important artifact and produce an evidence-weighted verdict or verified revision."
