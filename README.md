@@ -111,7 +111,7 @@ flowchart TD
 若希望跳过 AI 自主安装，可直接在本地终端执行单行命令完成全量挂载：
 
 ```bash
-git clone https://github.com/ZACK1997999/mac-ai-efficiency-kit.git && bash mac-ai-efficiency-kit/install.sh
+git clone https://github.com/chase-yuan/mac-ai-efficiency-kit.git && bash mac-ai-efficiency-kit/install.sh
 ```
 
 ---
