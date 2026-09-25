@@ -101,7 +101,13 @@ flowchart TD
 | `vmark-tab-cleaner` | **Markdown 编辑器标签治理**：直连 VMark 官方 MCP 服务，自动存盘脏标签，平滑保留最近修改的 3–5 个窗口，秒级消除视觉噪音与内存泄露。 | `清理vmark`、`关掉多余窗口` |
 | `nlpm` | **李笑来自然语言编程质检门禁**：对任何 Prompt、Skill 或 Agent 规范执行 100 分制静态代码质检，拦截模糊量词与无效修饰，守护 95+ 分数门禁。 | `nlpm:`、`/nlpm:score`、`提示词质检` |
 
-### 3. 全局规范与排版硬契约 (Global Rules & Aesthetic Invariants)
+### 3. 软件工程与架构纪律 (Engineering & Architectural Discipline)
+
+| 技能名称 | 核心职责与工程交付标准 | 触发前缀 / 快捷指令 |
+| :--- | :--- | :--- |
+| `tdd-guardian` | **自动化 TDD 与架构决策守护者**：严格复刻李笑来工程规范：零红灯不写代码、Markdown 架构决策记录（`docs/adr/`）、四维正交边界矩阵覆盖、物理命令验收与 Git 原子提交。 | `tdd:`、`dev:`、`工程:`、`tdd:adr`、`tdd:matrix`、`tdd:verify` |
+
+### 4. 全局规范与排版硬契约 (Global Rules & Aesthetic Invariants)
 
 - **`rules/system_hard_invariants.md`**：强制 AI 严格恪守美学第零原则（AP0–AP4）、奥卡姆剃刀原则（Single-File Locality $\le 3$ 文件）、零谄媚高熵表达、严格 GFM 表格、Mermaid v11 语法保护及中英文盘古排版。
 - **`rules/AGENTS.md`**：可直接复制至任何工程项目根目录的团队与 Agent 协作宪章。

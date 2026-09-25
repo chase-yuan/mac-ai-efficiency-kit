@@ -102,7 +102,13 @@ flowchart TD
 | `vmark-tab-cleaner` | **Markdown Tab Governance**: Connects directly to VMark MCP server, autosaves unsaved dirty buffers, retains the top 3–5 most recent tabs, and closes obsolete tabs in `< 0.5s`. | `vmark:clean`, `clean tabs` |
 | `nlpm` | **Natural-Language Quality Gate**: Enforces Li Xiaolai's NLPM standard on prompt and skill artifacts. Executes 100-point linting and enforces a strict $\ge 95/100$ quality threshold. | `nlpm:`, `/nlpm:score`, `lint prompt` |
 
-### 3. Global Hard Invariants & Typography
+### 3. Engineering & Architectural Discipline
+
+| Skill Name | Mission & Engineering Deliverables | Triggers / Shortcuts |
+| :--- | :--- | :--- |
+| `tdd-guardian` | **Autonomous TDD & MADR Architectural Protocol**: Enforces Li Xiaolai's exact engineering protocol: Zero bare code without failing tests, Markdown Architectural Decision Records (`docs/adr/`), 4-dimensional orthogonal boundary matrix, physical verification contract, and Git atomic commits. | `tdd:`, `dev:`, `工程:`, `tdd:adr`, `tdd:matrix`, `tdd:verify` |
+
+### 4. Global Hard Invariants & Typography
 
 - **`rules/system_hard_invariants.md`**: Enforces Aesthetic Principle Zero (AP0–AP4), Occam's Razor (Single-File Locality $\le 3$ files), Zero Sycophancy, strict GFM tables, Mermaid v11 vector compliance, and CJK Pangu whitespace typography.
 - **`rules/AGENTS.md`**: Modular, battle-tested system constitution ready to drop into any repository root as the baseline team contract.

@@ -28,5 +28,5 @@ find "${TARGET_SKILLS}" "${TARGET_RULES}" -type f \( -name "*.md" -o -name "*.py
 echo "4. 赋予脚本执行权限..."
 find "${TARGET_SKILLS}" -name "*.py" -exec chmod +x {} + 2>/dev/null || true
 
-echo "=== 安装完成！共部署 11 项技能与全局规则规范 ==="
+echo "=== 安装完成！共部署 12 项技能与全局规则规范 ==="
 echo "工作空间默认位于: ${DEFAULT_VAULT}"
